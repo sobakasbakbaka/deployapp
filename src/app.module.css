@@ -1,0 +1,18 @@
+.counter {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.number {
+    font-size: 20px;
+}
+
+.button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
