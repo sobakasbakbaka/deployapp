@@ -17,11 +17,11 @@ export const App = () => {
       <h1>Counter</h1>
       <div className={styles.counter}>
         <button className={styles.button} onClick={handleDecClick}>
-          ---
+          test
         </button>
         <p className={styles.number}>{counter}</p>
         <button className={styles.button} onClick={handleIncClick}>
-          ++
+          test
         </button>
       </div>
     </div>
