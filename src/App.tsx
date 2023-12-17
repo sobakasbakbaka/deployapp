@@ -21,7 +21,7 @@ export const App = () => {
         </button>
         <p className={styles.number}>{counter}</p>
         <button className={styles.button} onClick={handleIncClick}>
-          +
+          ++
         </button>
       </div>
     </div>
