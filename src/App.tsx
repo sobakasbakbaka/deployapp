@@ -1,6 +1,5 @@
 import { useState } from "react";
 import styles from "./app.module.css";
-import { Test } from "./Test";
 
 export const App = () => {
   const [counter, setCounter] = useState(0);
@@ -15,7 +14,7 @@ export const App = () => {
 
   return (
     <div>
-      <h1>Counter 2.0</h1>
+      <h1>Counter</h1>
       <div className={styles.counter}>
         <button className={styles.button} onClick={handleDecClick}>
           -
@@ -25,7 +24,6 @@ export const App = () => {
           +
         </button>
       </div>
-      <Test />
     </div>
   );
 };
