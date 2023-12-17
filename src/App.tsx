@@ -14,14 +14,14 @@ export const App = () => {
 
   return (
     <div>
-      <h1>Counter</h1>
+      <h1>Counter 2.0</h1>
       <div className={styles.counter}>
         <button className={styles.button} onClick={handleDecClick}>
-          -
+          test
         </button>
         <p className={styles.number}>{counter}</p>
         <button className={styles.button} onClick={handleIncClick}>
-          +
+          test
         </button>
       </div>
     </div>
